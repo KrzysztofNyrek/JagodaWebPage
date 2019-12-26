@@ -25,7 +25,43 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #FFFFFF;
+  }
+}
+.hello{
+  display: flex;
+  width: 1020px;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #7A0099;
+  margin: 1px auto;
+  justify-content: space-around;
+
+  &__photo{
+    flex: 0 0 52%;
+
+    &--1{
+      position: relative;
+      left: 6.69%;
+      top: 34.8%;
+      border: 1px solid #000000;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &__text{
+    flex: 0 0 48%;
+    padding-top: 4rem;
+
+    &--greatings{
+      font-size: 11.25rem;
+      font-weight: 700;
+      display: inline;
+    }
+    &--paragraph{
+      font-size: 3.125rem;
+      font-weight: 400;
+      display: inline;
+    }
   }
 }
