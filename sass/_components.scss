@@ -39,7 +39,7 @@
   justify-content: space-around;
 
   &__photo{
-    flex: 0 0 52%;
+    flex: 0 0 50%;
 
     &--1{
       position: relative;
@@ -50,8 +50,9 @@
     }
   }
   &__text{
-    flex: 0 0 48%;
+    flex: 0 0 50%;
     padding-top: 4rem;
+    padding-right: .625rem;
 
     &--greatings{
       font-size: 11.25rem;
