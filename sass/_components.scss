@@ -32,7 +32,6 @@
 }
 .hello{
   display: flex;
-  width: 1020px;
   border: 2px solid #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: #7A0099;
@@ -41,6 +40,7 @@
 
   &__photo{
     flex: 0 0 50%;
+    min-width: 512px;
 
     &--1{
       position: relative;
