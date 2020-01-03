@@ -2,7 +2,7 @@
   background-color: #BE60D6;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(9, 5vw);
+  grid-template-rows: repeat(12, 5vw);
   grid-gap: .5rem;
   padding: 1.5rem;
 
@@ -113,6 +113,16 @@
     }
     &--11 {
       grid-row: 6 / span 1;
+      grid-column: 8 / span 1;
+      &:active{
+        grid-row: 1/ -1;
+        grid-column: 1/ -1;
+        z-index: 1;
+        height: fit-content;
+      }
+    }
+    &--12 {
+      grid-row: 7 / span 1;
       grid-column: 8 / span 1;
       &:active{
         grid-row: 1/ -1;
