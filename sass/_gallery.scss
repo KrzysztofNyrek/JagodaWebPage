@@ -10,142 +10,72 @@
     &--1{
       grid-row: 1/ span 2;
       grid-column: 1/ span 2;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--2 {
       grid-row: 1 / span 3;
       grid-column: 3 / span 3;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--3 {
       grid-row: 1 / span 2;
       grid-column: 6 / 7;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-        }
+      @include img_click;
     }
     &--4 {
       grid-row: 1 / span 2;
       grid-column: 7 / -1;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--5 {
       grid-row: 3 / span 3;
       grid-column: 1 / span 2;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--6 {
       grid-row: 4 / span 2;
       grid-column: 3 / span 2;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--7 {
       grid-row: 3 / span 2;
       grid-column: 6 / span 3;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--8 {
       grid-row: 4 / span 1;
       grid-column: 5 / span 1;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--9 {
       grid-row: 5 / span 3;
       grid-column: 5 / span 3;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--10 {
       grid-row: 5 / span 1;
       grid-column: 8 / span 1;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--11 {
       grid-row: 6 / span 1;
       grid-column: 8 / span 1;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--12 {
       grid-row: 7 / span 1;
       grid-column: 8 / span 1;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--13 {
       grid-row: 8 / span 2;
       grid-column: 7 / span 2;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
     &--14 {
       grid-row: 8 / span 3;
       grid-column: 4 / span 3;
-      &:active{
-        grid-row: 1/ -1;
-        grid-column: 1/ -1;
-        z-index: 1;
-        align-self: center;
-      }
+      @include img_click;
     }
   }
   &__img{
