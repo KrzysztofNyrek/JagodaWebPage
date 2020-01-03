@@ -1,6 +1,5 @@
 @mixin img_click{
   &:active{
-  grid-row: 1/ -1;
   grid-column: 1/ -1;
   z-index: 1;
   align-self: center;
