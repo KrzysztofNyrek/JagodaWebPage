@@ -27,7 +27,6 @@
         height: fit-content;
       }
     }
-
     &--3 {
       grid-row: 1 / span 2;
       grid-column: 6 / 7;
@@ -38,7 +37,6 @@
         height: fit-content;
         }
     }
-
     &--4 {
       grid-row: 1 / span 2;
       grid-column: 7 / -1;
@@ -49,7 +47,6 @@
         height: fit-content;
       }
     }
-
     &--5 {
       grid-row: 3 / span 3;
       grid-column: 1 / span 2;
@@ -60,7 +57,6 @@
         height: fit-content;
       }
     }
-
     &--6 {
       grid-row: 4 / span 2;
       grid-column: 3 / span 2;
@@ -124,6 +120,16 @@
     &--12 {
       grid-row: 7 / span 1;
       grid-column: 8 / span 1;
+      &:active{
+        grid-row: 1/ -1;
+        grid-column: 1/ -1;
+        z-index: 1;
+        height: fit-content;
+      }
+    }
+    &--13 {
+      grid-row: 8 / span 2;
+      grid-column: 7 / span 2;
       &:active{
         grid-row: 1/ -1;
         grid-column: 1/ -1;
