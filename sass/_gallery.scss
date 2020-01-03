@@ -132,6 +132,11 @@
       grid-column: 3 / span 1;
       @include img_click;
     }
+    &--26 {
+      grid-row: 10 / span 1;
+      grid-column: 1 / span 1;
+      @include img_click;
+    }
   }
   &__img{
     width:100%;
