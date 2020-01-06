@@ -297,9 +297,14 @@
       grid-column: 4 / span 1;
       @include img_click;
     }
-    &--58 {
+    &--59 {
       grid-row: 17 / span 1;
       grid-column: 7 / span 1;
+      @include img_click;
+    }
+    &--60 {
+      grid-row: 17 / span 1;
+      grid-column: 8 / span 1;
       @include img_click;
     }
   }
