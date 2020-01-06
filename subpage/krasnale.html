@@ -11,16 +11,20 @@
 </head>
   <body>
     <div class="pagewraper">
-      <header class="header">
-        <a href="../index.html"><img class="header__img" src="/img/blueberries.svg" /></a>
-        <h1 class="header__title">Jagoda i Krasnale</h1>
-        <nav class="header__nav">
-          <ul class="header__nav-elements">
-            <li>Blog</li>
-            <li><a href="https://www.youtube.com/channel/UC3VokVD9dU2MAsKt0cmj4iA" target="blank" class="header__link">Video</a></li>
-          </ul>
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span><img class="navigation__img" src="/img/blueberries.svg" /></span>
+        </label>
+        <h1 class="navigation__title">Jagoda i Krasnale</h1>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html" class="navigation__link"><span>01</span>Strona główna</a></li>
+                <li class="navigation__item"><a href="/subpage/krasnale.html" class="navigation__link"><span>02</span>Jagoda i Krasnale</a></li>
+                </ul>
         </nav>
-      </header>
+      </div>
       <section class="gallery">
         <figure class="gallery__item gallery__item--1"><img src="../img/krasnale/krasnal_1.webp" alt="Jagoda z pierwszym krasnalem." class="gallery__img"></figure>
         <figure class="gallery__item gallery__item--2"><img src="../img/krasnale/krasnal_2.webp" alt="Jagoda z drugim krasnalem." class="gallery__img"></figure>
