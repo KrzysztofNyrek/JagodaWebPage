@@ -1,0 +1,21 @@
+@mixin img_click{
+  &:active{
+  grid-column: 1/ -1;
+  z-index: 1;
+  align-self: center;
+  }
+}
+@mixin img_click_start{
+  &:active{
+    grid-column: 1/ -1;
+    z-index: 1;
+    align-self: self-start;
+    }
+}
+@mixin img_click_end{
+  &:active{
+    grid-column: 1/ -1;
+    z-index: 1;
+    align-self: self-end;
+    }
+}
