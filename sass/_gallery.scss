@@ -377,9 +377,14 @@
       grid-column: 6 / span 1;
       @include img_click;
     }
-    &--74 {
+    &--75 {
       grid-row: 21 / span 1;
       grid-column: 6 / span 1;
+      @include img_click;
+    }
+    &--76 {
+      grid-row: 21 / span 1;
+      grid-column: 7 / span 1;
       @include img_click;
     }
   }
