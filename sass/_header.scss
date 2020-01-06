@@ -7,10 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
   &__title{
     font-size: 3rem;
     -webkit-text-stroke-width: thin;
+    transform: translateX(-2.625rem);
     @media only screen and (max-width: 500px){
       font-size: 2rem;
       margin-left: 8px;
@@ -48,10 +49,10 @@
     top: 0;
     left: 0;
     z-index: 1;
-    background-image: radial-gradient(#7A0099, #BE60D6);
     opacity: 0;
     width: 0;
     transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-image: radial-gradient(#7A0099, #BE60D6);
 }
 
 &__list {
@@ -62,6 +63,11 @@
     list-style: none;
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 600px){
+      align-items: flex-start;
+    }
 }
 
 &__item {
@@ -74,7 +80,7 @@
         display: inline-block;
         font-size: 3rem;
         font-weight: 300;
-        padding: 1rem 2rem;
+        padding: 1rem 0;
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
