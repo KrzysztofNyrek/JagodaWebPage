@@ -387,6 +387,11 @@
       grid-column: 7 / span 1;
       @include img_click;
     }
+    &--77 {
+      grid-row: 21 / span 1;
+      grid-column: 8 / span 1;
+      @include img_click;
+    }
   }
   &__img{
     width:100%;
