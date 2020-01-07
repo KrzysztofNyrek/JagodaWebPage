@@ -12,6 +12,10 @@
     font-size: 3rem;
     -webkit-text-stroke-width: thin;
     transform: translateX(-2.625rem);
+    @media only screen and (max-width: 500px){
+      font-size: 2rem;
+      margin-left: 8px;
+    }
   }
   &__checkbox {
     display: none;
