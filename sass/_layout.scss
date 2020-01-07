@@ -36,7 +36,14 @@
       -webkit-shape-outside: circle(50% at 50% 50%);
       shape-outside: circle(50% at 50% 50%);
   }
-
+  &__heading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+  &__info{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
   &__img {
       height: 100%;
       transform: translateX(-4rem) scale(1.4);
