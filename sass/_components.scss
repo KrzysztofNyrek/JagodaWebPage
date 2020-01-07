@@ -92,6 +92,16 @@
     }
   }
 }
+.main{
+  &__article{
+    padding: 1rem;
+  }
+  &__img{
+    float: left;
+    border-radius: 5%;
+    margin: 0 0.625rem 0.625rem 0;
+  }
+}
 .see-more{
   display:flex;
   justify-content: space-around;
