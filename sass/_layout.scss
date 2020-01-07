@@ -10,8 +10,6 @@
   }
 }
 .travels{
-  display: flex;
-  flex-direction: column;
   &__row{
     margin-top: 2rem;
   }
@@ -35,6 +33,8 @@
       position: relative;
       overflow: hidden;
       border-radius: 50%;
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      shape-outside: circle(50% at 50% 50%);
   }
 
   &__img {
