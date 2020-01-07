@@ -22,14 +22,14 @@
   box-shadow: 0 3rem 6rem rgba(#000000, .1);
   background-color: rgba(#ffff, .6);
   border-radius: 3px;
-  padding: 3rem;
+  padding: 2rem;
   padding-left: 9rem;
   -webkit-transform: skewX(-12deg);
   transform: skewX(-12deg);
 
   &__shape {
-      width: 10rem;
-      height: 10rem;
+      width: 8rem;
+      height: 8rem;
       float: left;
       transform: translateX(-3rem) skewX(12deg);
       position: relative;
