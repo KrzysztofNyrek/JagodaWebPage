@@ -26,6 +26,12 @@
   padding: 2rem;
   padding-left: 9rem;
   transform: skewX(-12deg);
+  @media only screen and (max-width: 1000px){
+    padding-left: 4rem;
+  }
+  @media only screen and (max-width: 740px){
+    transform: skewX(0deg);
+  }
 
   &__shape {
       width: 9rem;
@@ -36,6 +42,13 @@
       overflow: hidden;
       border-radius: 50%;
       shape-outside: circle(50% at 50% 50%);
+      @media only screen and (max-width: 1000px){
+        width: 8rem;
+        height: 8rem;
+      }
+      @media only screen and (max-width: 740px){
+        transform: translateX(-1rem) skewX(0deg);
+      }
   }
   &__heading{
     font-family: 'Lato', sans-serif;
@@ -47,6 +60,7 @@
     font-weight: 400;
     margin: 0;
     line-height: 1.25rem;
+    padding-right: 1rem;
   }
   &__img {
       height: 100%;
@@ -80,6 +94,9 @@
   }
   &__text {
       transform: skewX(12deg);
+      @media only screen and (max-width: 740px){
+        transform: skewX(0deg);
+      }
   }
 
   &__caption {
