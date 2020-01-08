@@ -16,9 +16,6 @@
       font-size: 2rem;
       margin-left: 8px;
     }
-    @media only screen and (max-width: 450px){
-      font-size: 1rem;
-    }
   }
   &__checkbox {
     display: none;
@@ -51,6 +48,7 @@
     z-index: 1;
     opacity: 0;
     width: 0;
+    overflow: hidden;
     transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     background-image: radial-gradient(#7A0099, #BE60D6);
 }

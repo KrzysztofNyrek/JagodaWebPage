@@ -92,6 +92,16 @@
     }
   }
 }
+.main{
+  &__article{
+    padding: 1rem;
+  }
+  &__img{
+    float: left;
+    border-radius: 5%;
+    margin: 0 0.625rem 0.625rem 0;
+  }
+}
 .see-more{
   display:flex;
   justify-content: space-around;
@@ -131,6 +141,26 @@
   color: #FFFFFF;
   margin-top: 0.9375rem;
 }
+.slider{
+  height: 80vh;
+  position: relative;
+  margin: .625rem;
+  @media only screen and (max-width: 970px){
+    height: 70vh;
+  }
+  @media only screen and (max-width: 860px){
+    height: 60vh;
+  }
+  @media only screen and (max-width: 720px){
+    height: 50vh;
+  }
+  @media only screen and (max-width: 620px){
+    height: 40vh;
+  }
+  @media only screen and (max-width: 500px){
+    height: 30vh;
+  }
+}
 .footer{
   width: 100%;
   height: 5rem;
@@ -141,6 +171,16 @@
   justify-content: center;
   align-items: center;
 }
+.footer--article{
+  width: 100%;
+  height: 5rem;
+  background: #BE60D6;
+  border: 2px solid #ffff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .adnotio__img{
   padding-right: 0.625rem;
   border-radius: 50%;
@@ -148,4 +188,10 @@
 .footer__text{
   color: darkblue;
   font-size: 1.375rem;
+}
+.mg-small{
+  margin-bottom: 0.25rem;
+}
+.mg-big{
+  margin-bottom: 0.625rem;
 }
