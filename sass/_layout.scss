@@ -99,7 +99,9 @@
         transform: skewX(0deg);
       }
   }
-
+  &__list{
+    padding-left: 6rem;
+  }
   &__caption {
       position: absolute;
       top: 50%;
@@ -113,7 +115,9 @@
       transition: all .5s;
       backface-visibility: hidden;
   }
-
+  &__video{
+    margin-bottom: 1rem;
+  }
   &:hover &__caption {
       opacity: 1;
       transform: translate(-50%, -50%);
@@ -123,4 +127,10 @@
       transform: translateX(-4rem) scale(1);
       filter: blur(3px) brightness(80%);
   }
+}
+.list__element{
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
