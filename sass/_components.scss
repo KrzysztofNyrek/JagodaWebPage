@@ -174,7 +174,7 @@
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(#000000, .1);
-  background-color: rgba(#ffff, .6);
+  background-color: rgba($white, .6);
   border-radius: 3px;
   padding: 2rem;
   padding-left: 9rem;
@@ -234,7 +234,7 @@
     &:hover{
       cursor: pointer;
       background-color: #BE60D6;
-      color: #ffff;
+      color: $white;
       transform: translateY(-2px) scale(1.1);
       font-weight: 400;
       border-radius: 50%;
@@ -260,7 +260,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, 20%);
-      color: #ffff;
+      color: $white;
       text-transform: uppercase;
       font-size: 1.7rem;
       text-align: center;
