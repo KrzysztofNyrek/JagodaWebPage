@@ -6,13 +6,13 @@
   margin: 1px auto;
   justify-content: space-around;
 
-  @media only screen and (max-width: 1050px){
+  @media only screen and (max-width: 65.625em){
     flex-wrap: wrap;
   }
 
   &__photo{
     margin-top: 1rem;
-    @media only screen and (min-width: 550px){
+    @media only screen and (min-width: 0.524em){
       flex: 0 0 50%;
       min-width: 512px;
     }
@@ -24,7 +24,7 @@
       transform: matrix(0.99, -0.15, 0.15, 0.99, 0, 0);
       border: 1px solid #000000;
       box-shadow: 0px 4px 4px rgba($black, 0.25);
-      @media only screen and (max-width: 550px){
+      @media only screen and (max-width: 0.524em){
         display:none;
       }
     }
@@ -35,7 +35,7 @@
       border: 1px solid $black;
       box-sizing: border-box;
       box-shadow: 0px 4px 4px rgba($black, 0.25);
-      @media only screen and (max-width: 550px){
+      @media only screen and (max-width: 0.524em){
         display:none;
       }
     }
@@ -47,7 +47,7 @@
       box-sizing: border-box;
       box-shadow: 0px 4px 4px rgba($black, 0.25);
       transform: matrix(0.93, -0.36, 0.37, 0.93, 0, 0);
-      @media only screen and (max-width: 550px){
+      @media only screen and (max-width: 0.524em){
         display:none;
       }
     }
@@ -59,13 +59,13 @@
       box-sizing: border-box;
       box-shadow: 0px 4px 4px rgba($black, 0.25);
       transform: matrix(0.97, 0.22, -0.23, 0.97, 0, 0);
-      @media only screen and (max-width: 550px){
+      @media only screen and (max-width: 0.524em){
         display:none;
       }
     }
     &--5{
       
-      @media only screen and (min-width: 550px){
+      @media only screen and (min-width: 0.524em){
         display:none;
       }
     }
@@ -75,7 +75,7 @@
     padding-top: 4rem;
     padding-right: .625rem;
     
-    @media only screen and (max-width: 1050px){
+    @media only screen and (max-width: 65.625em){
       padding-top: 0;
       padding-bottom: 1rem;
     }
@@ -146,19 +146,19 @@
   max-height: 576px;
   position: relative;
   margin: .625rem;
-  @media only screen and (max-width: 970px){
+  @media only screen and (max-width: 0.924em){
     height: 70vh;
   }
-  @media only screen and (max-width: 860px){
+  @media only screen and (max-width: 0.819em){
     height: 60vh;
   }
-  @media only screen and (max-width: 720px){
+  @media only screen and (max-width: 0.686em){
     height: 50vh;
   }
-  @media only screen and (max-width: 620px){
+  @media only screen and (max-width: 0.590em){
     height: 40vh;
   }
-  @media only screen and (max-width: 500px){
+  @media only screen and (max-width: 0.476em){
     height: 30vh;
   }
 }
@@ -179,10 +179,10 @@
   padding: 2rem;
   padding-left: 9rem;
   transform: skewX(-12deg);
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 0.952em){
     padding-left: 4rem;
   }
-  @media only screen and (max-width: 740px){
+  @media only screen and (max-width: 0.705em){
     transform: skewX(0deg);
   }
 
@@ -195,12 +195,12 @@
       overflow: hidden;
       border-radius: 50%;
       shape-outside: circle(50% at 50% 50%);
-      @media only screen and (max-width: 1000px){
+      @media only screen and (max-width: 0.952em){
         width: 8rem;
         height: 8rem;
         transform: translateX(-2rem) skewX(12deg);
       }
-      @media only screen and (max-width: 740px){
+      @media only screen and (max-width: 0.705em){
         transform: translateX(-1rem) skewX(0deg);
       }
   }
@@ -248,7 +248,7 @@
   }
   &__text {
       transform: skewX(12deg);
-      @media only screen and (max-width: 740px){
+      @media only screen and (max-width: 0.705em){
         transform: skewX(0deg);
       }
   }
