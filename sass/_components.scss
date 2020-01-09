@@ -225,7 +225,7 @@
   &__link{
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    color: #7A0099;
+    color: $dark_violet;
     font-weight: 700;
     font-style: italic;
     display: inline-block;
@@ -233,7 +233,7 @@
     transition: all .2s;
     &:hover{
       cursor: pointer;
-      background-color: #BE60D6;
+      background-color: $light_violet;
       color: $white;
       transform: translateY(-2px) scale(1.1);
       font-weight: 400;
